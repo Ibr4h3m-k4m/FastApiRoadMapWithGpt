@@ -29,25 +29,26 @@ pip install fastapi uvicorn
 ---
 
 ## 🧰 Module 2 — CRUD Basics
-- [ ] Use a Python list as a fake database
-- [ ] Implement `GET /users` and `GET /users/{user_id}`
-- [ ] Implement `POST /users`
-- [ ] Implement `PUT /users/{user_id}` and `DELETE /users/{user_id}`
+- [X] Use a Python list as a fake database
+- [X] Implement `GET /users` and `GET /users/{user_id}`
+- [X] Implement `POST /users`
+- [X] Implement `PUT /users/{user_id}` and `DELETE /users/{user_id}`
 
 🎯 Mini Project: “Mini-User Manager API”
 
 ---
 
 ## 💾 Module 3 — Data Persistence
-- [ ] Save/load data to/from `.json` files
-- [ ] Use FastAPI `startup` & `shutdown` events
+- [X] Save/load data to/from `.json` files
+- [X] Use FastAPI 'lifespan' events
 
 🎯 Mini Project: “Persistent User API”
 
 ---
 
 ## ⚙️ Module 4 — Project Structure & Validation
-- [ ] Organize folders: `app/`, `routes/`, `models.py`, `database.py`
+- [X] Organize folders: `app/`, `routes/`, `models.py`, `database.py`
+- [ ] Fix api crud logic (no double id etc)
 - [ ] Use `Depends()` for shared logic
 - [ ] Validate emails with `EmailStr`
 - [ ] Handle optional parameters
