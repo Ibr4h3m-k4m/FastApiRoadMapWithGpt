@@ -48,20 +48,21 @@ pip install fastapi uvicorn
 
 ## ⚙️ Module 4 — Project Structure & Validation
 - [X] Organize folders: `app/`, `routes/`, `models.py`, `database.py`
-- [ ] Fix api crud logic (no double id etc)
-- [ ] Use `Depends()` for shared logic
-- [ ] Validate emails with `EmailStr`
-- [ ] Handle optional parameters
+- [X] Fix api crud logic (no double id/email/name, non updatable id)
+- [X] Implement Consistent Status Handling using HTTPException and add PATCH HTTP method
+- [X] Use `Depends()` for shared logic (simplify the logic to avoid writing the same code repedeatly and avoid additional loops)
+- [X] Validate emails with `EmailStr`
+- [X] Handle optional parameters
 
 🎯 Mini Project: Refactor User Manager API
 
 ---
 
 ## 🧠 Module 5 — Environment & Database
-- [ ] Install `python-dotenv` and load `.env`
-- [ ] Install `sqlmodel` (SQLAlchemy ORM + Pydantic)
-- [ ] Create tables and CRUD with SQLite
-- [ ] Use `HTTPException` for error handling
+- [X] Install `python-dotenv` and load `.env`
+- [X] Install `sqlmodel` (SQLAlchemy ORM + Pydantic)
+- [X] Create tables and CRUD with SQLite
+- [X] Use `HTTPException` for error handling
 
 🎯 Mini Project: SQLite-backed User API
 
@@ -95,4 +96,3 @@ Combine everything learned:
 - Refactor and improve your code incrementally
 - Test routes regularly using `/docs`
 - Keep notes and save daily progress
-

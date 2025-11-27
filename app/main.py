@@ -19,10 +19,3 @@ def greet_user(name):
 @app.get("/search")
 def search(q: str | None = None):
     return {"search results": q}
-
-"""
-Things needed to add 
-not being able to add users with pre existing id , email or user name
-fix the problem of the user_id not auto incremeting when created
-fix the problem that the user_id is not being updated when modifying it (model_dump returns all field even if a field is not gonna be updated)
-"""

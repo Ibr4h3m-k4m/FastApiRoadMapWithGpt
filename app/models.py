@@ -6,3 +6,10 @@ class User(BaseModel):
     name : str
     email : EmailStr
     age : int
+    
+from typing import Optional
+
+class UserUpdate(BaseModel):
+    name: Optional[str]
+    email: Optional[EmailStr]
+    age: Optional[int]
