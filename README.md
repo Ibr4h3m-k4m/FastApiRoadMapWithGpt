@@ -35,7 +35,7 @@ FastApiRoadMapWithGpt/
 │   ├── schemas/             # Pydantic schemas
 │   ├── database/            # Database configuration
 │   └── main.py              # Application entry point
-├── app-module5/             # Module 5 implementation
+├── app-module5/             # Modules 2 through 5 implementations (the rest will be in sepreate repos)
 ├── module1.py               # Module 1: Basics
 ├── fastapi_flexible_roadmap.md  # Complete learning roadmap
 ├── .env                     # Environment variables (create this)
@@ -152,19 +152,19 @@ FastApiRoadMapWithGpt/
 - ⏳ HTML rendering with `Jinja2Templates`
 - ⏳ Token-based authentication (OAuth2, JWT)
 - ⏳ Protected routes with `Depends`
-- ⏳ WebSockets for real-time features (optional)
+- ⏳ WebSockets for real-time features
 
 **Learning Path**:
 1. **httpx** - Weather Proxy API (fetch external APIs)
 2. **Jinja2** - Notes Web App (render HTML templates)
 3. **Authentication** - Protected Notes API (secure endpoints)
-4. **WebSockets** - Live Chat (real-time communication, optional)
+4. **WebSockets** - Live Chat (real-time communication)
 
 **Mini Projects**: 
 - Weather Proxy API
 - Notes Web App with HTML UI
 - Protected Notes API
-- Live Note Updates or Mini-Chat (optional)
+- Live Note Updates or Mini-Chat 
 
 **Key Skills**: External integrations, templating, authentication, real-time features
 
@@ -416,7 +416,7 @@ Track your progress through the roadmap:
   - [x] httpx (External APIs)
   - [ ] Jinja2 (Templates)
   - [ ] Authentication (Tokens)
-  - [ ] WebSockets (Optional)
+  - [ ] WebSockets
 - [ ] **Module 7**: Final Project (Task Tracker)
 
 **Current Progress**: (5/7 modules)
@@ -509,22 +509,10 @@ Contributions are welcome! This is a learning resource, and community input make
 - 💬 **Discussions**: Use GitHub Discussions for questions
 - 📖 **Detailed Roadmap**: See [fastapi_flexible_roadmap.md](fastapi_flexible_roadmap.md)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- **FastAPI Creator**: Sebastián Ramírez (@tiangolo) for creating this amazing framework
-- **ChatGPT**: For assistance in structuring this milestone-based roadmap
-- **FastAPI Community**: For continuous support and contributions
-- **Contributors**: Everyone who has contributed to this learning resource
-- **Learners**: You, for choosing to invest in your skills!
 
 ## 🔗 Useful Links
 
 - [FastAPI GitHub Repository](https://github.com/tiangolo/fastapi)
-- [FastAPI Discord Community](https://discord.com/invite/VQjSZaeJmf)
 - [SQLModel Documentation](https://sqlmodel.tiangolo.com/)
 - [Python Type Hints Cheat Sheet](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
 - [REST API Best Practices](https://restfulapi.net/)
@@ -556,4 +544,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with 💻 and ☕ by Ibr4h3m-k4m | Powered by ChatGPT | Progress: 71% Complete
+Made with 💻 and ☕ by Ibr4h3m-k4m | Powered by AI LLMs 
