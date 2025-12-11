@@ -69,12 +69,49 @@ pip install fastapi uvicorn
 ---
 
 ## 🌍 Module 6 — Advanced Features
-- [ ] Fetch external APIs with `httpx`
+- [X] Fetch external APIs with `httpx`
 - [ ] Render HTML templates with `Jinja2Templates`
 - [ ] Implement token-based authentication with `Depends`
 - [ ] Explore WebSockets (optional)
 
 🎯 Mini Projects: “Weather Proxy API”, “Notes Web App”, “Protected Notes API”
+
+1️⃣ Start with httpx (External API Requests) 
+
+Easiest starting point
+
+Helps you understand async requests & FastAPI integration
+
+👉 Mini-Project: Weather Proxy API
+
+You call a real weather API → return simplified JSON.
+2️⃣ Add Jinja2 HTML Templates
+
+Learn rendering HTML pages
+
+Perfect for building small dynamic web UIs
+
+👉 Mini-Project: Notes Web App (HTML UI)
+
+List notes → add notes → show them in templates.
+
+3️⃣ Implement Token-Based Authentication
+
+Learn Depends, OAuth2PasswordBearer, tokens
+
+Introduces protected routes
+
+👉 Mini-Project: Protected Notes API
+
+Users must log in → get token → access /notes.
+
+4️⃣ Explore WebSockets (Optional)
+
+Real-time features
+
+Chat, notifications
+
+👉 Mini-Project (optional): Live Note Updates or Mini-Chat
 
 ---
 
